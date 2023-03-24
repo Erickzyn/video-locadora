@@ -1,52 +1,14 @@
-/* //////////// Atividade-01 ///////////00 */
-
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    background: #3b3737;
+main section {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-
-.box {
-    width: 300px;
-    height: 300px;
-    background: #fff;
-}
-
-h1 {
-    display: flex;
     justify-content: center;
-}
 
-hr {
-
-    margin-top: 10px; 
-}
-
-.titulo {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-} 
-
-.duracao {
-    display: flex;
-    justify-content: center;
-}
-
-.button {
-    margin-left: 14.5px;
-}
-
-.conteudo {
-    display: grid;
-    gap: 15px;
+    min-height: 100vh;
 }
